@@ -27,7 +27,6 @@ a {
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
-  /* Para que transform funcione */
   background: linear-gradient(90deg, #6de280, #4cb8c4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
