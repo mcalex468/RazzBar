@@ -1,7 +1,7 @@
-<script setup lang="ts">
+<script setup>
 import Banner from './Banner.vue';
 import Navigation from './Navigation.vue';
-
+import LanguageSwitch from './LanguageSwitch.vue';
 </script>
 
 <!-- src/components/Header.vue -->
@@ -9,6 +9,7 @@ import Navigation from './Navigation.vue';
   <header>
     <h1>RAZZ BAR</h1>
     <Navigation />
+      <LanguageSwitch/>
     <Banner />
   </header>
 </template>
