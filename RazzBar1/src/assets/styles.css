@@ -1,0 +1,25 @@
+/* src/assets/styles.css */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #222222;
+    font-weight: 600;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #A8E6CF;
+}
