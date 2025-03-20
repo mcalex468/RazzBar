@@ -1,28 +1,28 @@
 <!-- src/views/Home.vue -->
 <template>
   <div class="home">
-    <h2>{{ $t("home.title") }}</h2>
-    <p>{{ $t("home.description") }}</p>
+    <h2>Bienvenido a RAZZ BAR</h2>
+    <p>Explora nuestro catálogo de productos</p>
   </div>
 
-    <!-- Sección de Cards -->
-    <div class="cards-container">
-      <div class="card" v-for="(item, index) in cards" :key="index">
-        <img :src="item.image" :alt="item.title" />
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
-      </div>
+  <!-- Sección de Cards -->
+  <div class="cards-container">
+    <div class="card" v-for="(item, index) in cards" :key="index">
+      <img :src="item.image" :alt="item.title" />
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
     </div>
+  </div>
 
-    <!-- Sección Informativa -->
-    <div class="about">
-      <h3>About Us</h3>
-      <p>
-        We are a manufacturing company based in Hangzhou, China, with warehouses across Europe. 
-        We work with DHL to ensure fast and secure shipping worldwide. 
-        Quality, efficiency, and customer satisfaction are our top priorities.
-      </p>
-    </div>
+  <!-- Sección Informativa -->
+  <div class="about">
+    <h3>About Us</h3>
+    <p>
+      We are a manufacturing company based in Hangzhou, China, with warehouses across Europe.
+      We work with DHL to ensure fast and secure shipping worldwide.
+      Quality, efficiency, and customer satisfaction are our top priorities.
+    </p>
+  </div>
 </template>
 
 <script setup>

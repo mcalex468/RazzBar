@@ -1,12 +1,10 @@
-<!-- src/components/Navigation.vue -->
 <template>
   <nav>
+    <router-link to="/">HOME</router-link>
+    <router-link to="/catalog">CATALOG</router-link>
+    <router-link to="/contact">CONTACT</router-link>
     <nav>
-    <router-link to="/">{{ $t("navbar.home") }}</router-link>
-    <router-link to="/catalog">{{ $t("navbar.catalog") }}</router-link>
-    <router-link to="/contact">{{ $t("navbar.contact") }}</router-link>
-  </nav>
-
+    </nav>
   </nav>
 </template>
 

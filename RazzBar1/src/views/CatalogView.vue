@@ -1,12 +1,12 @@
 <!-- src/views/Catalog.vue -->
 <template>
- <div>
-    <h2>{{ $t("catalog.title") }}</h2>
+  <div>
+    <h2>CATALOGUE</h2>
     <div class="grid">
       <div v-for="item in catalog" :key="item.id" class="card">
         <router-link :to="'/catalog/' + item.id">
           <img :src="item.image" :alt="item.name" />
-          <h3>{{ $t("catalog.product") }} {{ item.id }}</h3>
+          <h3>{{ item.id }}</h3>
         </router-link>
       </div>
     </div>

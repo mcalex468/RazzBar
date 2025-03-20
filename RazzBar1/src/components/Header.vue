@@ -9,7 +9,6 @@ import LanguageSwitch from './LanguageSwitch.vue';
   <header>
     <h1>RAZZ BAR</h1>
     <Navigation />
-      <LanguageSwitch/>
     <Banner />
   </header>
 </template>
