@@ -25,7 +25,7 @@ const sendWhatsApp = () => {
     return;
   }
 
-  const phoneNumber = "692726842"; // 🔥 PON AQUÍ TU NÚMERO DE WHATSAPP
+  const phoneNumber = "684723541"; // 🔥 PON AQUÍ TU NÚMERO DE WHATSAPP
   const text = `Hello! My name is ${name.value}. My email is ${email.value}. \n\n${message.value}`;
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
 
