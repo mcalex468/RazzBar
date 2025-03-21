@@ -2,7 +2,16 @@
     {
         "id": 1,
         "name": "Razz Bar 40000 puffs",
-        "image": "/img/razzBar40k.png",
+        "thumbnail": "/img/razzBar40k.png",
+        "images": [
+            "/img/razzBar40k(1).png",
+            "/img/razzBar40k(2).png",
+            "/img/razzBar40k(3).png",
+            "/img/razzBar40k(4).png",
+            "/img/razzBar40k(5).png",
+            "/img/razzBar40k(6).png",
+            "/img/razzBar40k(7).png"
+        ],
         "nicotine": [
             "2%",
             "5%"
@@ -27,7 +36,14 @@
     {
         "id": 2,
         "name": "Razz Bar 30000 puffs",
-        "image": "/img/razzBar30k.png",
+        "thumbnail": "/img/razzBar30k.png",
+        "images": [
+            "/img/razzBar30k(1).png",
+            "/img/razzBar30k(2).png",
+            "/img/razzBar30k(3).png",
+            "/img/razzBar30k(4).png",
+            "/img/razzBar30k(5).png"
+        ],
         "nicotine": [
             "2%",
             "5%"
@@ -59,7 +75,14 @@
     {
         "id": 3,
         "name": "Razz Bar 25000 puffs",
-        "image": "/img/razzBar25k.png",
+        "thumbnail": "/img/razzBar25k.png",
+        "images": [
+            "/img/razzBar25k(1).png",
+            "/img/razzBar25k(2).png",
+            "/img/razzBar25k(3).png",
+            "/img/razzBar25k(4).png",
+            "/img/razzBar25k(5).png"
+        ],
         "nicotine": [
             "2%",
             "5%"
@@ -90,7 +113,14 @@
     {
         "id": 4,
         "name": "Razz Bar 15000 puffs",
-        "image": "/img/razzBar15k.png",
+        "thumbnail": "/img/razzBar15k.png",
+        "images": [
+            "/img/razzBar15k(1).png",
+            "/img/razzBar15k(2).png",
+            "/img/razzBar15k(3).png",
+            "/img/razzBar15k(4).png",
+            "/img/razzBar15k(5).png"
+        ],
         "nicotine": [
             "2%",
             "5%"
@@ -122,7 +152,16 @@
     {
         "id": 5,
         "name": "Razz Bar 12000 puffs",
-        "image": "/img/razzBar12k.png",
+        "thumbnail": "/img/razzBar12k.png",
+        "images": [
+            "/img/razzBar12k(1).png",
+            "/img/razzBar12k(2).png",
+            "/img/razzBar12k(3).png",
+            "/img/razzBar12k(4).png",
+            "/img/razzBar12k(5).png",
+            "/img/razzBar12k(6).png",
+            "/img/razzBar12k(7).png"
+        ],
         "nicotine": [
             "2%",
             "5%"
@@ -154,7 +193,15 @@
     {
         "id": 6,
         "name": "Razz Bar 10000 puffs",
-        "image": "/img/razzBar10k.png",
+        "thumbnail": "/img/razzBar10k.png",
+        "images": [
+            "/img/razzBar10k(1).png",
+            "/img/razzBar10k(2).png",
+            "/img/razzBar10k(3).png",
+            "/img/razzBar10k(4).png",
+            "/img/razzBar10k(5).png",
+            "/img/razzBar10k(6).png"
+        ],
         "nicotine": [
             "2%",
             "5%"

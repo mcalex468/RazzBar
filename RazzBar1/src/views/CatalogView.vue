@@ -4,7 +4,7 @@
     <div class="product-list">
       <div v-for="product in products" :key="product.id" class="product-card">
         <router-link :to="'/product/' + product.id">
-          <img :src="product.image" :alt="product.name" />
+          <img :src="product.thumbnail" :alt="product.name" />
           <h3>{{ product.name }}</h3>
         </router-link>
       </div>

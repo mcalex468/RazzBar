@@ -1,7 +1,7 @@
 <template>
   <div v-if="product" class="product-detail">
     <div class="product-info">
-      <img :src="product.image" :alt="product.name" class="product-image" />
+      <ImageCarousel :images="product.images" />
       <div class="product-specs">
         <h2>{{ product.name }}</h2>
         <p><strong>Puffs:</strong> {{ product.puffs }}</p>
@@ -33,6 +33,7 @@
 import { useRoute } from "vue-router";
 import { useProducts } from "@/composables/useProducts";
 import { computed } from "vue";
+import ImageCarousel from "@/components/ImageCarousel.vue";
 
 const { products } = useProducts();
 const route = useRoute();
