@@ -19,7 +19,7 @@ const repeatedText = computed(() =>
 
 <style scoped>
 .banner {
-    margin-top: 15px;
+    margin-top: 20px;
     overflow: hidden;
     width: 100%;
     height: 25px;

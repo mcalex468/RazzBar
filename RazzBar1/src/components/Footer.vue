@@ -1,10 +1,9 @@
-<!-- src/components/Footer.vue -->
 <template>
   <footer>
     <div class="footer-container">
       <!-- Sección Izquierda: Logo -->
       <div class="footer-logo">
-        <img src="../assets/img/razz1.jpg" alt="Mi Marca" />
+        <img src="/img/razz1.png" alt="RazzBar" />
       </div>
 
       <!-- Sección Central: Links -->
@@ -16,8 +15,14 @@
 
       <!-- Sección Derecha: Información -->
       <div class="footer-info">
-        <p>📍 Europa </p>
-        <p>✉️ bestsupplier@gmail.com</p>
+        <div class="info-item">
+          <span>📍</span>
+          <p>Europa</p>
+        </div>
+        <div class="info-item">
+          <span>✉️</span>
+          <p>bestsupplier@gmail.com</p>
+        </div>
       </div>
     </div>
     <p class="copyright">&copy; 2025 Razz Bar. All rights reserved.</p>
@@ -26,51 +31,76 @@
 
 <style scoped>
 footer {
-  background: #222;
-  color: white;
+  background: #e0e0e0;
+  /* Nuevo gris claro */
   padding: 20px;
   text-align: center;
   margin-top: 20px;
 }
 
+/* Contenedor principal */
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+/* Logo */
 .footer-logo img {
   width: 80px;
   height: auto;
 }
 
+/* Sección Central */
 .footer-links {
   text-align: center;
 }
 
-.footer-links a {
-  color: #6de280;
-  margin: 0 10px;
-  text-decoration: none;
+.footer-links a,
+.footer-links p {
+  background: linear-gradient(90deg, #6de280, #4cb8c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
-  transition: color 0.3s;
+  text-decoration: none;
+  transition: opacity 0.3s;
 }
 
 .footer-links a:hover {
-  color: #4cb8c4;
+  opacity: 0.8;
 }
 
+/* Sección Derecha */
 .footer-info {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  background: linear-gradient(90deg, #6de280, #4cb8c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Copyright */
 .copyright {
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 14px;
   opacity: 0.8;
+  background: linear-gradient(90deg, #6de280, #4cb8c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>

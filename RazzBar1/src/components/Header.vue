@@ -20,18 +20,18 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   display: inline-block;
-  transition: transform 0.5s ease, letter-spacing 0.3s ease;
+  transition: transform 0.7s ease, letter-spacing 0.3s ease;
   transform-origin: center;
 }
 
 h1:hover {
-  transform: scale(1.1) rotateX(10deg) rotateY(15deg);
+  transform: scale(1.1) rotateX(10deg);
   letter-spacing: 2px;
 }
 
 
 header {
-  background: #ECECEC;
+  background: #e0e0e0;
   color: #222;
   padding: 20px;
   text-align: center;

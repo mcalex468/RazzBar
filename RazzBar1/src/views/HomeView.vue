@@ -3,6 +3,7 @@
   <div class="home">
     <h2>Bienvenido a RAZZ BAR</h2>
     <p>Explore our catalogue of products</p>
+    <LogoCarrousel />
   </div>
 
   <!-- Sección de Cards -->
@@ -26,6 +27,7 @@
 </template>
 
 <script setup>
+import LogoCarrousel from "@/components/LogoCarrousel.vue";
 import { ref } from "vue";
 
 const cards = ref([
