@@ -24,8 +24,7 @@ const sendWhatsApp = () => {
     alert("Please fill in all fields before sending!");
     return;
   }
-
-  const phoneNumber = "684723541"; // 📌 PON TU NÚMERO DE WHATSAPP
+  const phoneNumber = "34684723541"; // 📌 Añade el código de país (Ej: España 🇪🇸 -> 34)
   const text = `Hello! My name is ${name.value}. My email is ${email.value}. \n\n${message.value}`;
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
 
