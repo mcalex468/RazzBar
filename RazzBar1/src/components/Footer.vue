@@ -8,8 +8,8 @@
 
       <!-- Sección Central: Links -->
       <div class="footer-links">
-        <router-link to="/privacy-policy">Política de Privacidad</router-link>
-        <router-link to="/terms">Términos y Condiciones</router-link>
+        <p>Política de Privacidad</p>
+        <p>Términos y Condiciones</p>
       </div>
 
       <!-- Sección Derecha: Información -->

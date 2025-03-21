@@ -6,7 +6,7 @@ import Navigation from './Navigation.vue';
 <!-- src/components/Header.vue -->
 <template>
   <header>
-    <h1>RAZZ BAR</h1>
+    <img src="../../public/img/razz1.png" alt="RAZZ BAR">
     <Navigation />
     <Banner />
   </header>
@@ -29,7 +29,6 @@ h1:hover {
   letter-spacing: 2px;
 }
 
-
 header {
   background: #e0e0e0;
   color: #222;
@@ -37,6 +36,25 @@ header {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  box-shadow: 0px 4px 10px rgba(189, 35, 35, 0.1);
+  box-shadow: 0px 4px 10px rgba(22, 22, 22, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header img {
+  width: 180px;
+  margin-bottom: 10px;
+  /* Ajusta el tamaño */
+  height: auto;
+  transition: transform 1s ease-in-out, filter 0.5s ease-in-out;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+header img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.3));
 }
 </style>

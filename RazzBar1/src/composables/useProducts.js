@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import productsData from "@/assets/productos.json"; // Importamos el JSON
+import productsData from "../assets/productos.json";
 
 export function useProducts() {
     const products = ref(productsData);
