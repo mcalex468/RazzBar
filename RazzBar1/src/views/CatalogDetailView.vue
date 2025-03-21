@@ -125,7 +125,7 @@ const product = computed(() => products.value.find(p => p.id === Number(route.pa
   border-radius: 12px;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(to right, #92908e, #d1cdc8, #252524);
+  background: #e0e0e0;
   color: white;
   text-align: center;
 }
