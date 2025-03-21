@@ -1,41 +1,60 @@
 <template>
-    <div class="logo-carousel">
-        <div v-for="(logo, index) in logos" :key="index" class="logo-item">
-            <img :src="logo" alt="Company Logo" />
+    <div class="carousel-container">
+        <div class="carousel">
+            <img :src="logos[currentIndex]" alt="Company Logo" class="carousel-image" />
         </div>
     </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const logos = ref([
-    "/img/razz4.png",
+    "/img/razz1.png",
     "/img/razz2.png",
     "/img/razz3.png",
     "/img/razz4.png"
 ]);
+
+const currentIndex = ref(0);
+let interval = null;
+
+const startCarousel = () => {
+    interval = setInterval(() => {
+        currentIndex.value = (currentIndex.value + 1) % logos.value.length;
+    }, 30000); // Cambia cada 30 segundos
+};
+
+onMounted(() => {
+    startCarousel();
+});
+
+onUnmounted(() => {
+    clearInterval(interval);
+});
 </script>
 
 <style scoped>
-.logo-carousel {
+.carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
     padding: 20px;
 }
 
-.logo-item img {
-    width: 100px;
-    /* Tamaño uniforme */
-    height: auto;
-    object-fit: contain;
-    transition: transform 0.3s ease;
+.carousel {
+    width: 150px;
+    /* Tamaño fijo */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo-item img:hover {
-    transform: scale(1.1);
+.carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: opacity 1s ease-in-out;
 }
 </style>

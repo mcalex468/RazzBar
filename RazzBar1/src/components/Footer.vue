@@ -1,16 +1,15 @@
 <template>
   <footer>
     <div class="footer-container">
-      <!-- Sección Izquierda: Logo -->
-      <div class="footer-logo">
-        <img src="../img/razz1.png" alt="RazzBar" />
+      <!-- Sección Izquierda: Logo (carrusel más pequeño en footer) -->
+      <div class="footer-logo small-logo">
+        <LogoCarousel />
       </div>
 
       <!-- Sección Central: Links -->
       <div class="footer-links">
         <router-link to="/privacy-policy">Política de Privacidad</router-link>
         <router-link to="/terms">Términos y Condiciones</router-link>
-        <p>📞 Tel: +34 600 123 456</p>
       </div>
 
       <!-- Sección Derecha: Información -->
@@ -29,13 +28,17 @@
   </footer>
 </template>
 
+<script setup>
+import LogoCarousel from "@/components/LogoCarrousel.vue";
+</script>
+
 <style scoped>
 footer {
   background: #e0e0e0;
-  /* Nuevo gris claro */
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Contenedor principal */
@@ -49,9 +52,20 @@ footer {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* Logo */
-.footer-logo img {
-  width: 80px;
+/* Estilos para hacer el LogoCarousel más pequeño en el footer */
+.small-logo {
+  width: 100px;
+  /* Ajusta el tamaño del contenedor */
+  height: 60px;
+  /* Ajusta la altura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-logo img {
+  width: 80px !important;
+  /* Tamaño más pequeño */
   height: auto;
 }
 
