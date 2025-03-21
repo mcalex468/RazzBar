@@ -3,7 +3,7 @@
     <div class="footer-container">
       <!-- Sección Izquierda: Logo -->
       <div class="footer-logo">
-        <img src="/img/razz1.png" alt="RazzBar" />
+        <img src="../img/razz1.png" alt="RazzBar" />
       </div>
 
       <!-- Sección Central: Links -->

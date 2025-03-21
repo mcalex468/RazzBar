@@ -37,6 +37,6 @@ header {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(189, 35, 35, 0.1);
 }
 </style>
