@@ -8,7 +8,7 @@ import Contact from '../views/ContactView.vue';
 const routes = [
   { path: '/', component: Home },
   { path: '/catalog', component: Catalog },
-  { path: '/catalog/:id', component: CatalogDetail, props: true },
+  { path: '/product/:id', component: CatalogDetail, props: true }, // Cambio aquí
   { path: '/contact', component: Contact }
 ];
 

@@ -1,0 +1,185 @@
+[
+    {
+        "id": 1,
+        "name": "Razz Bar 40000 puffs",
+        "image": "/img/razzBar40k.png",
+        "nicotine": [
+            "2%",
+            "5%"
+        ],
+        "puffs": 40000,
+        "battery": 650,
+        "info": "Mesh Coil DUAL TANK",
+        "charger": "Type-C",
+        "type": "Rechargable",
+        "flavours": [
+            "Lemon Lime & Lush Ice",
+            "Strawberry Ice & Mixed Berries",
+            "Blue Razz Ice & Strawberry Watermelon Bubble Gum",
+            "Mixed Berries & Red Bull Ice",
+            "Blueberry Ice & Love 66",
+            "Peach Ice & Blueberry Ice",
+            "Strawberry Kiwi & Blueberry Sour Raspberry",
+            "Watermelon Ice & Cola Ice",
+            "Strawberry Watermelon & Grape Ice"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Razz Bar 30000 puffs",
+        "image": "/img/razzBar30k.png",
+        "nicotine": [
+            "2%",
+            "5%"
+        ],
+        "puffs": 30000,
+        "battery": 650,
+        "info": "Mesh Coil",
+        "charger": "Type-C",
+        "type": "Rechargable",
+        "flavours": [
+            "Triple Melon",
+            "Strawberry Ice",
+            "Sour Apple",
+            "Mango Peach Watermelon",
+            "Strawberry Banana",
+            "Blueberry Ice",
+            "Juicy Peach Ice",
+            "Strawberry Kiwi",
+            "Watermelon Ice",
+            "Summer Dream",
+            "Strawberry Watermelon",
+            "Mixed Berries",
+            "Blue Razz Ice",
+            "Lemon Lime",
+            "Cola Ice",
+            "Blackberry Ice"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Razz Bar 25000 puffs",
+        "image": "/img/razzBar25k.png",
+        "nicotine": [
+            "2%",
+            "5%"
+        ],
+        "puffs": 25000,
+        "battery": 650,
+        "info": "Mesh Coil",
+        "charger": "Type-C",
+        "type": "Rechargable",
+        "flavours": [
+            "Juicy Peach Ice",
+            "Strawberry Banana",
+            "Red Bull Grape",
+            "Blueberry Ice",
+            "Watermelon Ice",
+            "Lush Ice",
+            "Tropical Fruit",
+            "Strawberry Kiwi",
+            "Strawberry Ice",
+            "Mixed Berries",
+            "Strawberry Raspberry Cherry Ice",
+            "Love 66",
+            "Black Dragon Ice",
+            "Blueberry Sour Raspberry",
+            "Strawberry Watermelon Bubble Gum"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Razz Bar 15000 puffs",
+        "image": "/img/razzBar15k.png",
+        "nicotine": [
+            "2%",
+            "5%"
+        ],
+        "puffs": 15000,
+        "battery": 650,
+        "info": "Mesh Coil",
+        "charger": "Type-C",
+        "type": "Rechargable",
+        "flavours": [
+            "Raspberry Fudge",
+            "Strawberry Ice",
+            "Red Bull Ice",
+            "Kiwi Passion Fruit Guava",
+            "Mamba",
+            "Blueberry Ice",
+            "Peach Ice",
+            "Strawberry Kiwi",
+            "Watermelon Ice",
+            "Peach Mango Pineapple",
+            "Watermelon Bubble Gum",
+            "Mixed Berries",
+            "Blueberry Raspberry Lemon",
+            "Lemon Lime",
+            "Cola Ice",
+            "Double Apple"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Razz Bar 12000 puffs",
+        "image": "/img/razzBar12k.png",
+        "nicotine": [
+            "2%",
+            "5%"
+        ],
+        "puffs": 12000,
+        "battery": 650,
+        "info": "Mesh Coil",
+        "charger": "Type-C",
+        "type": "Rechargable",
+        "flavours": [
+            "Peach Ice",
+            "Kiwi Passion Fruit Guava",
+            "Red Bull Ice",
+            "Blueberry Ice",
+            "Watermelon Ice",
+            "Mamba",
+            "Cherry Ice",
+            "Strawberry Kiwi",
+            "Strawberry Ice",
+            "Mixed Berries",
+            "Blue Razz Lemonade",
+            "Mango Ice",
+            "Blueberry Raspberry",
+            "Raspberry Watermelon",
+            "Blueberry Bubble Gum",
+            "Strawberry Watermelon Bubble Gum"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Razz Bar 10000 puffs",
+        "image": "/img/razzBar10k.png",
+        "nicotine": [
+            "2%",
+            "5%"
+        ],
+        "puffs": 10000,
+        "battery": 650,
+        "info": "Mesh Coil",
+        "charger": "Type-C",
+        "type": "Rechargable",
+        "flavours": [
+            "Peach Ice",
+            "Kiwi Passion Fruit Guava",
+            "Red Bull Ice",
+            "Blueberry Cherry Cranberry",
+            "Gummy Bear",
+            "Watermelon Ice",
+            "Mamba",
+            "Cherry Ice",
+            "Strawberry Kiwi",
+            "Peach Mango Pineapple",
+            "Strawberry Ice",
+            "Cola Ice",
+            "Blue Razz Lemonade",
+            "Mixed Berries",
+            "Lush Ice"
+        ]
+    }
+]

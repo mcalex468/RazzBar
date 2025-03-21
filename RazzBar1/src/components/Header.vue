@@ -1,7 +1,6 @@
 <script setup>
 import Banner from './Banner.vue';
 import Navigation from './Navigation.vue';
-import LanguageSwitch from './LanguageSwitch.vue';
 </script>
 
 <!-- src/components/Header.vue -->

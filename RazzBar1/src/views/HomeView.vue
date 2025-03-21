@@ -2,7 +2,7 @@
 <template>
   <div class="home">
     <h2>Bienvenido a RAZZ BAR</h2>
-    <p>Explora nuestro catálogo de productos</p>
+    <p>Explore our catalogue of products</p>
   </div>
 
   <!-- Sección de Cards -->
@@ -79,14 +79,17 @@ p {
   max-width: 800px;
 }
 
-/* Contenedor de Cards */
+/* Contenedor de Cards centrado */
 .cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  justify-content: center;
+  /* Centra las cards */
   gap: 20px;
-  width: 100%;
+  flex-wrap: wrap;
+  /* Permite que se adapten a la pantalla */
   max-width: 900px;
-  margin: 40px 0;
+  margin: 40px auto;
+  /* Centra horizontalmente */
 }
 
 /* Estilo de cada Card */
@@ -96,6 +99,9 @@ p {
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: 250px;
+  /* Tamaño uniforme */
 }
 
 .card:hover {
@@ -108,13 +114,16 @@ p {
   border-radius: 8px;
 }
 
-/* Sección de "About Us" */
+/* Sección de "About Us" centrada */
 .about {
   background: #e3f2e1;
   padding: 20px;
-  margin-top: 40px;
+  margin: 40px auto;
+  /* Centrado horizontalmente */
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 800px;
+  text-align: center;
+  /* Texto centrado */
 }
 </style>
