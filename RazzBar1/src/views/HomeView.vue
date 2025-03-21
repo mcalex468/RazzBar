@@ -24,7 +24,6 @@
       Quality, efficiency, and customer satisfaction are our top priorities.
     </p>
   </div>
-  <img src="../../public/img/dhl.png" alt="">
 </template>
 
 <script setup>
@@ -33,17 +32,17 @@ import { ref } from "vue";
 
 const cards = ref([
   {
-    image: "../../public/img/dhl.png",
+    image: "/img/dhl.png",
     title: "Fast Shipping",
     description: "We ensure quick and secure shipping to all locations worldwide."
   },
   {
-    image: "../../public/img/fabrica.png",
+    image: "/img/fabrica.png",
     title: "High Quality",
     description: "Our products are crafted with top-notch materials and strict quality control."
   },
   {
-    image: "../../public/img/almacen.png",
+    image: "/img/almacen.png",
     title: "Global Warehouses",
     description: "Our warehouses across Europe ensure fast and efficient distribution."
   }
