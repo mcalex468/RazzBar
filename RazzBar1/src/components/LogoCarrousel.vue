@@ -11,8 +11,6 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 const logos = ref([
     "/img/razz1.png",
-    "/img/razz2.png",
-    "/img/razz3.png",
     "/img/razz4.png"
 ]);
 

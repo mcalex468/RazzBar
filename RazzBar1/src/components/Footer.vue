@@ -15,11 +15,11 @@
       <!-- Sección Derecha: Información -->
       <div class="footer-info">
         <div class="info-item">
-          <span>📍</span>
+          <span>LOCATION</span>
           <p>Europa</p>
         </div>
         <div class="info-item">
-          <span>✉️</span>
+          <span>GMAIL:</span>
           <p>bestsupplier@gmail.com</p>
         </div>
       </div>
@@ -102,6 +102,19 @@ footer {
   margin-bottom: 5px;
 }
 
+.info-item span {
+  font-weight: bold;
+  background: linear-gradient(90deg, #6de280, #4cb8c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.info-item span:hover {
+  opacity: 0.8;
+}
+
+
 .info-item p {
   background: linear-gradient(90deg, #6de280, #4cb8c4);
   -webkit-background-clip: text;
@@ -116,5 +129,31 @@ footer {
   background: linear-gradient(90deg, #6de280, #4cb8c4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .small-logo {
+    width: 80px;
+    height: 50px;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-info {
+    align-items: center;
+  }
+
+  .info-item {
+    justify-content: center;
+  }
 }
 </style>
